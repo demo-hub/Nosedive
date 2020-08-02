@@ -52,6 +52,7 @@
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
 		<li><a aria-current="{segment === 'movies' ? 'page' : undefined}" href="movies">Movies</a></li>
-		<li><a rel=prefetch aria-current="{segment === 'tvshows' ? 'page' : undefined}" href="tvshows">TV Shows</a></li>
+		<li><a aria-current="{segment === 'tvshows' ? 'page' : undefined}" href="tvshows">TV Shows</a></li>
+		<li><a aria-current="{segment === 'books' ? 'page' : undefined}" href="books">Books</a></li>
 	</ul>
 </nav>
