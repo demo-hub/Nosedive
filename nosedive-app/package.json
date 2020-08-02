@@ -12,14 +12,19 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
     "compression": "^1.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "node-fetch": "^2.6.0",
     "polka": "next",
-    "sirv": "^0.4.0"
+    "session-file-store": "^1.4.0",
+    "sirv": "^0.4.0",
+    "sveltestrap": "^3.4.0"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "sapper": "^0.27.0",
-    "svelte": "^3.0.0",
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.0.0",
@@ -29,8 +34,11 @@
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-replace": "^2.2.0",
+    "npm-run-all": "^4.1.5",
     "rollup": "^2.3.4",
     "rollup-plugin-svelte": "^5.0.1",
-    "rollup-plugin-terser": "^5.3.0"
+    "rollup-plugin-terser": "^5.3.0",
+    "sapper": "^0.27.0",
+    "svelte": "^3.24.0"
   }
 }
