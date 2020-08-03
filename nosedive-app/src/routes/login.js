@@ -1,4 +1,7 @@
 import fetch from 'node-fetch';
+require('dotenv').config();
+
+const { API_URL } = process.env;
 
 /* const headers = {
     'Content-Type': 'application/json',
@@ -14,7 +17,7 @@ export async function post(req, res) {
     try {
         const { username, password } = req.body;
 
-        const result = await fetch(`http://localhost:8000/login`, {
+        const result = await fetch(`${API_URL}/login`, {
             method: "POST",
             headers,
             body: JSON.stringify({ username, password }),
